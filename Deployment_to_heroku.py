@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[19]:
+# In[1]:
 
 
 from pycaret.regression import load_model, predict_model
@@ -11,7 +11,7 @@ import numpy as np
 import streamlit as st
 
 
-# In[22]:
+# In[2]:
 
 
 
@@ -73,7 +73,7 @@ sa = StreamlitApp()
 sa.run()               
 
 
-# In[21]:
+# In[3]:
 
 
 #!jupyter nbconvert --to script Deployment_to_heroku.ipynb
