@@ -8128,3 +8128,119 @@ AssertionError
 2021-11-10 19:24:28,771:INFO:Checking exceptions
 2021-11-10 19:24:28,772:INFO:Preloading libraries
 2021-11-10 19:24:28,772:INFO:Preparing display monitor
+2021-11-11 18:21:35,961:INFO:Initializing load_model()
+2021-11-11 18:21:35,965:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:21:47,336:INFO:Initializing load_model()
+2021-11-11 18:21:47,337:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:22:20,028:INFO:Initializing load_model()
+2021-11-11 18:22:20,029:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:24:07,702:INFO:Initializing load_model()
+2021-11-11 18:24:07,704:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:24:29,759:INFO:Initializing load_model()
+2021-11-11 18:24:29,759:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:24:44,754:INFO:Initializing load_model()
+2021-11-11 18:24:44,756:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:24:47,747:INFO:Initializing load_model()
+2021-11-11 18:24:47,747:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:24:47,949:INFO:Initializing predict_model()
+2021-11-11 18:24:47,949:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['MSZoning',
+                                                            'Street', 'Alley',
+                                                            'LotShape',
+                                                            'LandContour',
+                                                            'Utilities',
+                                                            'LotConfig',
+                                                            'LandSlope',
+                                                            'Neighborhood',
+                                                            'Condition1',
+                                                            'Condition2',
+                                                            'BldgType',
+                                                            'HouseStyle',
+                                                            'RoofStyle',
+                                                            'RoofMatl',
+                                                            'Exterior1st',
+                                                            'Exterior2nd',
+                                                            'MasVnrType',
+                                                            'ExterQual',
+                                                            'ExterCond',
+                                                            'Foundation',
+                                                            'BsmtQual',
+                                                            'BsmtCond',
+                                                            'Bsm...
+                                       target_variable='SalePrice',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 VotingRegressor(estimators=[('br', BayesianRidge()),
+                                             ('catboost',
+                                              <catboost.core.CatBoostRegressor object at 0x00000182290E55B0>),
+                                             ('ridge',
+                                              Ridge(random_state=6996)),
+                                             ('gbr',
+                                              GradientBoostingRegressor(random_state=6996)),
+                                             ('lightgbm',
+                                              LGBMRegressor(random_state=6996))],
+                                 n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-11-11 18:24:47,953:INFO:Checking exceptions
+2021-11-11 18:24:47,953:INFO:Preloading libraries
+2021-11-11 18:25:33,761:INFO:Initializing load_model()
+2021-11-11 18:25:33,762:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:25:36,171:INFO:Initializing load_model()
+2021-11-11 18:25:36,171:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:28:37,109:INFO:Initializing load_model()
+2021-11-11 18:28:37,110:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:28:37,871:INFO:Initializing load_model()
+2021-11-11 18:28:37,871:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:28:38,066:INFO:Initializing load_model()
+2021-11-11 18:28:38,066:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:28:39,270:INFO:Initializing load_model()
+2021-11-11 18:28:39,270:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:28:39,494:INFO:Initializing load_model()
+2021-11-11 18:28:39,494:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:35:01,362:INFO:Initializing load_model()
+2021-11-11 18:35:01,364:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:35:35,898:INFO:Initializing load_model()
+2021-11-11 18:35:35,898:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:35:42,782:INFO:Initializing load_model()
+2021-11-11 18:35:42,783:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-11 18:35:42,981:INFO:Initializing predict_model()
+2021-11-11 18:35:42,982:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['MSZoning',
+                                                            'Street', 'Alley',
+                                                            'LotShape',
+                                                            'LandContour',
+                                                            'Utilities',
+                                                            'LotConfig',
+                                                            'LandSlope',
+                                                            'Neighborhood',
+                                                            'Condition1',
+                                                            'Condition2',
+                                                            'BldgType',
+                                                            'HouseStyle',
+                                                            'RoofStyle',
+                                                            'RoofMatl',
+                                                            'Exterior1st',
+                                                            'Exterior2nd',
+                                                            'MasVnrType',
+                                                            'ExterQual',
+                                                            'ExterCond',
+                                                            'Foundation',
+                                                            'BsmtQual',
+                                                            'BsmtCond',
+                                                            'Bsm...
+                                       target_variable='SalePrice',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 VotingRegressor(estimators=[('br', BayesianRidge()),
+                                             ('catboost',
+                                              <catboost.core.CatBoostRegressor object at 0x00000227B7318D30>),
+                                             ('ridge',
+                                              Ridge(random_state=6996)),
+                                             ('gbr',
+                                              GradientBoostingRegressor(random_state=6996)),
+                                             ('lightgbm',
+                                              LGBMRegressor(random_state=6996))],
+                                 n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-11-11 18:35:42,984:INFO:Checking exceptions
+2021-11-11 18:35:42,985:INFO:Preloading libraries
