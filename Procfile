@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Deployment_to_heroku.py
+web: sh setup.sh && streamlit run streamlit_app.py
