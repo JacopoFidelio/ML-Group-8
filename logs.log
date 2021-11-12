@@ -10416,3 +10416,470 @@ ValueError: Input contains NaN, infinity or a value too large for dtype('float64
 2021-11-11 19:47:56,753:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
 2021-11-11 19:47:57,128:INFO:Initializing load_model()
 2021-11-11 19:47:57,128:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:32:56,784:INFO:Initializing load_model()
+2021-11-12 11:32:56,788:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:38:12,065:INFO:Initializing load_model()
+2021-11-12 11:38:12,066:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:38:53,473:INFO:Initializing load_model()
+2021-11-12 11:38:53,473:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:39:06,878:INFO:Initializing load_model()
+2021-11-12 11:39:06,879:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:39:07,071:INFO:Initializing predict_model()
+2021-11-12 11:39:07,073:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['MSZoning',
+                                                            'Street', 'Alley',
+                                                            'LotShape',
+                                                            'LandContour',
+                                                            'Utilities',
+                                                            'LotConfig',
+                                                            'LandSlope',
+                                                            'Neighborhood',
+                                                            'Condition1',
+                                                            'Condition2',
+                                                            'BldgType',
+                                                            'HouseStyle',
+                                                            'RoofStyle',
+                                                            'RoofMatl',
+                                                            'Exterior1st',
+                                                            'Exterior2nd',
+                                                            'MasVnrType',
+                                                            'ExterQual',
+                                                            'ExterCond',
+                                                            'Foundation',
+                                                            'BsmtQual',
+                                                            'BsmtCond',
+                                                            'Bsm...
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='SalePrice',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 VotingRegressor(estimators=[('br', BayesianRidge()),
+                                             ('catboost',
+                                              <catboost.core.CatBoostRegressor object at 0x0000029187B1F490>),
+                                             ('ridge',
+                                              Ridge(random_state=321))],
+                                 n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-11-12 11:39:07,076:INFO:Checking exceptions
+2021-11-12 11:39:07,078:INFO:Preloading libraries
+2021-11-12 11:41:27,617:INFO:Initializing load_model()
+2021-11-12 11:41:27,618:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:41:34,207:INFO:Initializing load_model()
+2021-11-12 11:41:34,209:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:41:34,443:INFO:Initializing predict_model()
+2021-11-12 11:41:34,444:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['MSZoning',
+                                                            'Street', 'Alley',
+                                                            'LotShape',
+                                                            'LandContour',
+                                                            'Utilities',
+                                                            'LotConfig',
+                                                            'LandSlope',
+                                                            'Neighborhood',
+                                                            'Condition1',
+                                                            'Condition2',
+                                                            'BldgType',
+                                                            'HouseStyle',
+                                                            'RoofStyle',
+                                                            'RoofMatl',
+                                                            'Exterior1st',
+                                                            'Exterior2nd',
+                                                            'MasVnrType',
+                                                            'ExterQual',
+                                                            'ExterCond',
+                                                            'Foundation',
+                                                            'BsmtQual',
+                                                            'BsmtCond',
+                                                            'Bsm...
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='SalePrice',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 VotingRegressor(estimators=[('br', BayesianRidge()),
+                                             ('catboost',
+                                              <catboost.core.CatBoostRegressor object at 0x0000029187F21130>),
+                                             ('ridge',
+                                              Ridge(random_state=321))],
+                                 n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-11-12 11:41:34,446:INFO:Checking exceptions
+2021-11-12 11:41:34,447:INFO:Preloading libraries
+2021-11-12 11:44:44,239:INFO:Initializing load_model()
+2021-11-12 11:44:44,239:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:45:32,739:INFO:Initializing load_model()
+2021-11-12 11:45:32,739:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:45:41,673:INFO:Initializing load_model()
+2021-11-12 11:45:41,673:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:45:41,863:INFO:Initializing predict_model()
+2021-11-12 11:45:41,864:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['MSZoning',
+                                                            'Street', 'Alley',
+                                                            'LotShape',
+                                                            'LandContour',
+                                                            'Utilities',
+                                                            'LotConfig',
+                                                            'LandSlope',
+                                                            'Neighborhood',
+                                                            'Condition1',
+                                                            'Condition2',
+                                                            'BldgType',
+                                                            'HouseStyle',
+                                                            'RoofStyle',
+                                                            'RoofMatl',
+                                                            'Exterior1st',
+                                                            'Exterior2nd',
+                                                            'MasVnrType',
+                                                            'ExterQual',
+                                                            'ExterCond',
+                                                            'Foundation',
+                                                            'BsmtQual',
+                                                            'BsmtCond',
+                                                            'Bsm...
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='SalePrice',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 VotingRegressor(estimators=[('br', BayesianRidge()),
+                                             ('catboost',
+                                              <catboost.core.CatBoostRegressor object at 0x000001D4F443C4F0>),
+                                             ('ridge',
+                                              Ridge(random_state=321))],
+                                 n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-11-12 11:45:41,865:INFO:Checking exceptions
+2021-11-12 11:45:41,867:INFO:Preloading libraries
+2021-11-12 11:47:45,763:INFO:Initializing load_model()
+2021-11-12 11:47:45,764:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:48:04,811:INFO:Initializing load_model()
+2021-11-12 11:48:04,812:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:48:10,282:INFO:Initializing load_model()
+2021-11-12 11:48:10,282:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:48:10,486:INFO:Initializing predict_model()
+2021-11-12 11:48:10,487:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['MSZoning',
+                                                            'Street', 'Alley',
+                                                            'LotShape',
+                                                            'LandContour',
+                                                            'Utilities',
+                                                            'LotConfig',
+                                                            'LandSlope',
+                                                            'Neighborhood',
+                                                            'Condition1',
+                                                            'Condition2',
+                                                            'BldgType',
+                                                            'HouseStyle',
+                                                            'RoofStyle',
+                                                            'RoofMatl',
+                                                            'Exterior1st',
+                                                            'Exterior2nd',
+                                                            'MasVnrType',
+                                                            'ExterQual',
+                                                            'ExterCond',
+                                                            'Foundation',
+                                                            'BsmtQual',
+                                                            'BsmtCond',
+                                                            'Bsm...
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='SalePrice',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 VotingRegressor(estimators=[('br', BayesianRidge()),
+                                             ('catboost',
+                                              <catboost.core.CatBoostRegressor object at 0x0000027A8EA876A0>),
+                                             ('ridge',
+                                              Ridge(random_state=321))],
+                                 n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-11-12 11:48:10,490:INFO:Checking exceptions
+2021-11-12 11:48:10,490:INFO:Preloading libraries
+2021-11-12 11:49:37,879:INFO:Initializing load_model()
+2021-11-12 11:49:37,880:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:50:01,895:INFO:Initializing load_model()
+2021-11-12 11:50:01,895:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:50:06,888:INFO:Initializing load_model()
+2021-11-12 11:50:06,889:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:50:07,056:INFO:Initializing predict_model()
+2021-11-12 11:50:07,057:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['MSZoning',
+                                                            'Street', 'Alley',
+                                                            'LotShape',
+                                                            'LandContour',
+                                                            'Utilities',
+                                                            'LotConfig',
+                                                            'LandSlope',
+                                                            'Neighborhood',
+                                                            'Condition1',
+                                                            'Condition2',
+                                                            'BldgType',
+                                                            'HouseStyle',
+                                                            'RoofStyle',
+                                                            'RoofMatl',
+                                                            'Exterior1st',
+                                                            'Exterior2nd',
+                                                            'MasVnrType',
+                                                            'ExterQual',
+                                                            'ExterCond',
+                                                            'Foundation',
+                                                            'BsmtQual',
+                                                            'BsmtCond',
+                                                            'Bsm...
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='SalePrice',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 VotingRegressor(estimators=[('br', BayesianRidge()),
+                                             ('catboost',
+                                              <catboost.core.CatBoostRegressor object at 0x000001D886CAC5B0>),
+                                             ('ridge',
+                                              Ridge(random_state=321))],
+                                 n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-11-12 11:50:07,058:INFO:Checking exceptions
+2021-11-12 11:50:07,060:INFO:Preloading libraries
+2021-11-12 11:51:50,947:INFO:Initializing load_model()
+2021-11-12 11:51:50,948:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:52:33,668:INFO:Initializing load_model()
+2021-11-12 11:52:33,668:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:52:40,605:INFO:Initializing load_model()
+2021-11-12 11:52:40,606:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:52:40,803:INFO:Initializing predict_model()
+2021-11-12 11:52:40,806:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['MSZoning',
+                                                            'Street', 'Alley',
+                                                            'LotShape',
+                                                            'LandContour',
+                                                            'Utilities',
+                                                            'LotConfig',
+                                                            'LandSlope',
+                                                            'Neighborhood',
+                                                            'Condition1',
+                                                            'Condition2',
+                                                            'BldgType',
+                                                            'HouseStyle',
+                                                            'RoofStyle',
+                                                            'RoofMatl',
+                                                            'Exterior1st',
+                                                            'Exterior2nd',
+                                                            'MasVnrType',
+                                                            'ExterQual',
+                                                            'ExterCond',
+                                                            'Foundation',
+                                                            'BsmtQual',
+                                                            'BsmtCond',
+                                                            'Bsm...
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='SalePrice',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 VotingRegressor(estimators=[('br', BayesianRidge()),
+                                             ('catboost',
+                                              <catboost.core.CatBoostRegressor object at 0x00000206D9E48640>),
+                                             ('ridge',
+                                              Ridge(random_state=321))],
+                                 n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-11-12 11:52:40,807:INFO:Checking exceptions
+2021-11-12 11:52:40,808:INFO:Preloading libraries
+2021-11-12 11:52:52,195:INFO:Initializing load_model()
+2021-11-12 11:52:52,196:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:53:03,078:INFO:Initializing load_model()
+2021-11-12 11:53:03,078:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:53:03,203:INFO:Initializing predict_model()
+2021-11-12 11:53:03,203:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['MSZoning',
+                                                            'Street', 'Alley',
+                                                            'LotShape',
+                                                            'LandContour',
+                                                            'Utilities',
+                                                            'LotConfig',
+                                                            'LandSlope',
+                                                            'Neighborhood',
+                                                            'Condition1',
+                                                            'Condition2',
+                                                            'BldgType',
+                                                            'HouseStyle',
+                                                            'RoofStyle',
+                                                            'RoofMatl',
+                                                            'Exterior1st',
+                                                            'Exterior2nd',
+                                                            'MasVnrType',
+                                                            'ExterQual',
+                                                            'ExterCond',
+                                                            'Foundation',
+                                                            'BsmtQual',
+                                                            'BsmtCond',
+                                                            'Bsm...
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='SalePrice',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 VotingRegressor(estimators=[('br', BayesianRidge()),
+                                             ('catboost',
+                                              <catboost.core.CatBoostRegressor object at 0x00000206D9FCBD60>),
+                                             ('ridge',
+                                              Ridge(random_state=321))],
+                                 n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-11-12 11:53:03,205:INFO:Checking exceptions
+2021-11-12 11:53:03,207:INFO:Preloading libraries
+2021-11-12 11:53:19,396:INFO:Initializing load_model()
+2021-11-12 11:53:19,404:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:53:20,216:INFO:Initializing load_model()
+2021-11-12 11:53:20,217:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:53:20,347:INFO:Initializing predict_model()
+2021-11-12 11:53:20,347:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['MSZoning',
+                                                            'Street', 'Alley',
+                                                            'LotShape',
+                                                            'LandContour',
+                                                            'Utilities',
+                                                            'LotConfig',
+                                                            'LandSlope',
+                                                            'Neighborhood',
+                                                            'Condition1',
+                                                            'Condition2',
+                                                            'BldgType',
+                                                            'HouseStyle',
+                                                            'RoofStyle',
+                                                            'RoofMatl',
+                                                            'Exterior1st',
+                                                            'Exterior2nd',
+                                                            'MasVnrType',
+                                                            'ExterQual',
+                                                            'ExterCond',
+                                                            'Foundation',
+                                                            'BsmtQual',
+                                                            'BsmtCond',
+                                                            'Bsm...
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='SalePrice',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 VotingRegressor(estimators=[('br', BayesianRidge()),
+                                             ('catboost',
+                                              <catboost.core.CatBoostRegressor object at 0x00000206DA001F10>),
+                                             ('ridge',
+                                              Ridge(random_state=321))],
+                                 n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-11-12 11:53:20,349:INFO:Checking exceptions
+2021-11-12 11:53:20,350:INFO:Preloading libraries
+2021-11-12 11:53:40,135:INFO:Initializing load_model()
+2021-11-12 11:53:40,136:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:53:43,131:INFO:Initializing load_model()
+2021-11-12 11:53:43,131:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:53:45,702:INFO:Initializing load_model()
+2021-11-12 11:53:45,703:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:53:49,022:INFO:Initializing load_model()
+2021-11-12 11:53:49,023:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:53:50,456:INFO:Initializing load_model()
+2021-11-12 11:53:50,457:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:53:53,953:INFO:Initializing load_model()
+2021-11-12 11:53:53,954:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:02,073:INFO:Initializing load_model()
+2021-11-12 11:54:02,073:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:02,911:INFO:Initializing load_model()
+2021-11-12 11:54:02,913:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:03,704:INFO:Initializing load_model()
+2021-11-12 11:54:03,705:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:04,906:INFO:Initializing load_model()
+2021-11-12 11:54:04,907:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:11,152:INFO:Initializing load_model()
+2021-11-12 11:54:11,153:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:13,876:INFO:Initializing load_model()
+2021-11-12 11:54:13,877:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:21,938:INFO:Initializing load_model()
+2021-11-12 11:54:21,939:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:25,174:INFO:Initializing load_model()
+2021-11-12 11:54:25,176:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:27,342:INFO:Initializing load_model()
+2021-11-12 11:54:27,343:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:28,256:INFO:Initializing load_model()
+2021-11-12 11:54:28,257:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:31,593:INFO:Initializing load_model()
+2021-11-12 11:54:31,593:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:33,418:INFO:Initializing load_model()
+2021-11-12 11:54:33,418:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:36,028:INFO:Initializing load_model()
+2021-11-12 11:54:36,029:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:40,917:INFO:Initializing load_model()
+2021-11-12 11:54:40,918:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:42,878:INFO:Initializing load_model()
+2021-11-12 11:54:42,879:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:44,569:INFO:Initializing load_model()
+2021-11-12 11:54:44,569:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:47,438:INFO:Initializing load_model()
+2021-11-12 11:54:47,439:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:49,247:INFO:Initializing load_model()
+2021-11-12 11:54:49,248:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:51,242:INFO:Initializing load_model()
+2021-11-12 11:54:51,244:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:52,806:INFO:Initializing load_model()
+2021-11-12 11:54:52,806:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:54,615:INFO:Initializing load_model()
+2021-11-12 11:54:54,615:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:54:56,918:INFO:Initializing load_model()
+2021-11-12 11:54:56,918:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:55:03,024:INFO:Initializing load_model()
+2021-11-12 11:55:03,024:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:55:16,587:INFO:Initializing load_model()
+2021-11-12 11:55:16,587:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:55:17,388:INFO:Initializing load_model()
+2021-11-12 11:55:17,389:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:55:18,209:INFO:Initializing load_model()
+2021-11-12 11:55:18,210:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:55:27,536:INFO:Initializing load_model()
+2021-11-12 11:55:27,536:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:55:28,707:INFO:Initializing load_model()
+2021-11-12 11:55:28,707:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:55:34,495:INFO:Initializing load_model()
+2021-11-12 11:55:34,495:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:55:34,699:INFO:Initializing load_model()
+2021-11-12 11:55:34,699:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=True)
+2021-11-12 11:55:34,814:INFO:Initializing predict_model()
+2021-11-12 11:55:34,814:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['MSZoning',
+                                                            'Street', 'Alley',
+                                                            'LotShape',
+                                                            'LandContour',
+                                                            'Utilities',
+                                                            'LotConfig',
+                                                            'LandSlope',
+                                                            'Neighborhood',
+                                                            'Condition1',
+                                                            'Condition2',
+                                                            'BldgType',
+                                                            'HouseStyle',
+                                                            'RoofStyle',
+                                                            'RoofMatl',
+                                                            'Exterior1st',
+                                                            'Exterior2nd',
+                                                            'MasVnrType',
+                                                            'ExterQual',
+                                                            'ExterCond',
+                                                            'Foundation',
+                                                            'BsmtQual',
+                                                            'BsmtCond',
+                                                            'Bsm...
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='SalePrice',
+                                       threshold=0.9)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 VotingRegressor(estimators=[('br', BayesianRidge()),
+                                             ('catboost',
+                                              <catboost.core.CatBoostRegressor object at 0x00000206DA044520>),
+                                             ('ridge',
+                                              Ridge(random_state=321))],
+                                 n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-11-12 11:55:34,816:INFO:Checking exceptions
+2021-11-12 11:55:34,817:INFO:Preloading libraries
